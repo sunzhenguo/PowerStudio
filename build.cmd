@@ -1,3 +1,6 @@
 @echo off
 
-powershell -NonInteractive -NoProfile -ExecutionPolicy Unrestricted -Command "& { .\build.ps1 %* }"
+powershell -NoProfile -ExecutionPolicy Unrestricted -Command "& { .\build.ps1 %* }"
+
+
+

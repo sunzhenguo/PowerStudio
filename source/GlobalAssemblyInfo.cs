@@ -19,7 +19,7 @@ using System.Resources;
 [assembly : AssemblyCompany( "IntelliTect" )]
 [assembly : AssemblyProduct( "PowerStudio" )]
 [assembly : NeutralResourcesLanguage( "en-US" )]
-[assembly: AssemblyCopyright("Copyright © IntelliTect 2011")]
+[assembly: AssemblyCopyright("Copyright ?IntelliTect 2011")]
 
 // Version information for an assembly consists of the following four values:
 //

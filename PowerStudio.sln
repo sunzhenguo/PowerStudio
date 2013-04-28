@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E14428FC-A29D-4393-9854-1F955738C974}"
 	ProjectSection(SolutionItems) = preProject
 		source\GlobalAssemblyInfo.cs = source\GlobalAssemblyInfo.cs
@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		UnitTests.testsettings = UnitTests.testsettings
 		VisualStudio.PowerShell.vsmdi = VisualStudio.PowerShell.vsmdi
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerStudio.Resources", "source\Resources\PowerStudio.Resources.csproj", "{17286D8F-5CB5-4584-A486-F9D00AE4C175}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{46504291-3DE0-4CD4-BB05-5911448BF22E}"
 	ProjectSection(SolutionItems) = preProject
@@ -27,21 +25,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{46504291
 		build\xunit.ps1 = build\xunit.ps1
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MPF", "MPF", "{74EE9A91-BBF7-4BED-81A6-98BF4B900B25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extension", "Extension", "{35ADF278-F225-4ABA-B64A-9F8C4181D62A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debugger", "Debugger", "{01CA9926-ABDB-4A1D-A2AD-38B446E94E28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LanguageServices", "LanguageServices", "{C259369A-1012-4F77-8E83-F2E53E9AD3A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerStudio.Resources", "source\Resources\PowerStudio.Resources.csproj", "{17286D8F-5CB5-4584-A486-F9D00AE4C175}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.VisualStudio.Project", "source\Microsoft.VisualStudio.Project\Dev10\Src\CSharp\Microsoft.VisualStudio.Project.csproj", "{CACB60A9-1E76-4F92-8831-B134A658C695}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.VisualStudio.Project.UnitTests", "source\Microsoft.VisualStudio.Project\Dev10\Tests\UnitTests\Microsoft.VisualStudio.Project.UnitTests.csproj", "{7301F66C-FF21-4DC6-8EEE-2BA88186DC16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.VisualStudio.Project.IntegrationTests", "source\Microsoft.VisualStudio.Project\Dev10\Tests\IntegrationTests\Microsoft.VisualStudio.Project.IntegrationTests.csproj", "{0A29E2CA-F59D-4467-8FBC-6CA686CAAA3B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MPF", "MPF", "{74EE9A91-BBF7-4BED-81A6-98BF4B900B25}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedProject", "source\Microsoft.VisualStudio.Project\Dev10\Samples\CSharp\NestedProject\Src\NestedProject.csproj", "{E9B43C9E-60AA-4387-A955-CAFB7EFA8C27}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extension", "Extension", "{35ADF278-F225-4ABA-B64A-9F8C4181D62A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerStudio.Debugger.Tests", "source\PowerStudio.Debugger.Tests\PowerStudio.Debugger.Tests.csproj", "{ACD0AFCD-89A2-4AA8-9ECD-5912D58E0A9E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debugger", "Debugger", "{01CA9926-ABDB-4A1D-A2AD-38B446E94E28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerStudio.Debugger", "source\PowerStudio.Debugger\PowerStudio.Debugger.csproj", "{F3F718BC-ED9E-492A-A80A-F2DC2501F45A}"
 EndProject
@@ -52,8 +54,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerStudio.LanguageServices", "source\PowerStudio.LanguageServices\PowerStudio.LanguageServices.csproj", "{FF615B2F-BAEF-4671-9279-BD291244F2FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerStudio.Integration.Tests", "source\PowerStudio.Integration.Tests\PowerStudio.Integration.Tests.csproj", "{EECD9955-26E0-42CA-8ADD-9FA07C174300}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LanguageServices", "LanguageServices", "{C259369A-1012-4F77-8E83-F2E53E9AD3A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerStudio.LanguageServices.PowerShell", "source\PowerStudio.LanguageServices.PowerShell\PowerStudio.LanguageServices.PowerShell.csproj", "{4D142791-B828-4DEE-8079-20933E0F64D8}"
 EndProject
@@ -149,9 +149,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{CACB60A9-1E76-4F92-8831-B134A658C695} = {74EE9A91-BBF7-4BED-81A6-98BF4B900B25}
 		{7301F66C-FF21-4DC6-8EEE-2BA88186DC16} = {74EE9A91-BBF7-4BED-81A6-98BF4B900B25}
 		{0A29E2CA-F59D-4467-8FBC-6CA686CAAA3B} = {74EE9A91-BBF7-4BED-81A6-98BF4B900B25}
-		{CACB60A9-1E76-4F92-8831-B134A658C695} = {74EE9A91-BBF7-4BED-81A6-98BF4B900B25}
 		{E9B43C9E-60AA-4387-A955-CAFB7EFA8C27} = {74EE9A91-BBF7-4BED-81A6-98BF4B900B25}
 		{AF6CE392-FFA9-49CB-AA08-E361A7352D55} = {35ADF278-F225-4ABA-B64A-9F8C4181D62A}
 		{EECD9955-26E0-42CA-8ADD-9FA07C174300} = {35ADF278-F225-4ABA-B64A-9F8C4181D62A}
@@ -159,8 +159,8 @@ Global
 		{F3F718BC-ED9E-492A-A80A-F2DC2501F45A} = {01CA9926-ABDB-4A1D-A2AD-38B446E94E28}
 		{F4C49383-D9E0-41F6-AC24-9FE4759F2A86} = {01CA9926-ABDB-4A1D-A2AD-38B446E94E28}
 		{9F33ABD7-AFA2-4D05-905E-7CDE10ECE226} = {01CA9926-ABDB-4A1D-A2AD-38B446E94E28}
-		{FF615B2F-BAEF-4671-9279-BD291244F2FB} = {C259369A-1012-4F77-8E83-F2E53E9AD3A5}
 		{36ED8968-0211-4222-96AA-710EA353C9A2} = {C259369A-1012-4F77-8E83-F2E53E9AD3A5}
+		{FF615B2F-BAEF-4671-9279-BD291244F2FB} = {C259369A-1012-4F77-8E83-F2E53E9AD3A5}
 		{4D142791-B828-4DEE-8079-20933E0F64D8} = {C259369A-1012-4F77-8E83-F2E53E9AD3A5}
 		{4084BD9D-C218-4D3C-AE63-A59B76C5964E} = {C259369A-1012-4F77-8E83-F2E53E9AD3A5}
 		{660215F1-B7E1-49CE-A6C5-2374A73816EB} = {C259369A-1012-4F77-8E83-F2E53E9AD3A5}
