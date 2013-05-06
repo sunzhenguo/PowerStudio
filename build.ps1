@@ -20,10 +20,9 @@ $buildPath = (Resolve-Path $scriptPath\build) #build 文件夹
 . $buildPath\bootstrap.ps1 $buildPath 
 
 
-#$psakeModule = @(Get-ChildItem $scriptPath\* -recurse -include psake.ps1)[0].FullName
-#. $psakeModule $buildFile $taskList $framework $docs $parameters $properties
+$psakeModule = @(Get-ChildItem $scriptPath\* -recurse -include psake.ps1)[0].FullName
+. $psakeModule $buildFile $taskList $framework $docs $parameters $properties
 
-pause
 
 if($env:BUILD_NUMBER) {
   [Environment]::Exit($lastexitcode)
